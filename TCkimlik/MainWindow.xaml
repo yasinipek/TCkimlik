@@ -1,0 +1,15 @@
+﻿<Window x:Class="tckimlik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tckimlik"
+        mc:Ignorable="d"
+        Title="İpek Bilgisayar T.C. Kimlik Numarası Sorgulama Uygulaması" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtTc" HorizontalAlignment="Left" Height="36" Margin="146,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="224"/>
+        <Button x:Name="button" Content="DOĞRULA" HorizontalAlignment="Left" VerticalAlignment="Top" Width="224" Margin="146,112,0,0" Height="48" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="146,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="37" Width="224"/>
+
+    </Grid>
+</Window>
